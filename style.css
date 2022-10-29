@@ -1,0 +1,40 @@
+html {
+  scroll-behavior:auto;
+}
+.inline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 3px;
+}
+.bt1:hover {
+  color: aliceblue;
+}
+.heading {
+  font-family: 'Baloo 2', cursive;
+  margin-top: 50px;
+  font-size: 65px;
+}
+
+.heading2 {
+  font-family: 'Baloo 2', cursive;
+  margin-top: 120px;
+  font-size: 60px;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color:#6689ff ;
+  text-decoration-thickness:3px;
+}
+.clients-classic{
+  box-shadow: -3px 6px 5px 0px rgba(176,164,176,1);
+  transition: all .3s ease-in-out;
+}
+
+.clients-classic:hover {
+  box-shadow: -3px 18px 20px 0px rgba(99,89,99,1);
+}
